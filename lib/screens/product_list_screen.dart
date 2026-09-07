@@ -19,7 +19,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
   @override
   void initState() {
     super.initState();
-    context.read<ProductsCubit>().loadProducts();
+    context.read<ProductsCubit>().loadProducts(forceMock: true);
   }
 
   @override
