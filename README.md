@@ -88,7 +88,7 @@ flutter devices
 flutter run
 ```
 
-Branches Description:
+# Branches Description:
 1. main Branch
 The main branch contains the final version of the app with local product images using Image.asset instead of network URLs. This ensures images load reliably without internet dependency.
 
