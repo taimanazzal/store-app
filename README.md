@@ -81,7 +81,7 @@ flutter test
 
 ```bash
 flutter pub get
-flutter emulators --launch <emulator_id>
+flutter emulators --launch Pixel_7_Pro                 
 flutter devices
 flutter run
 ```
