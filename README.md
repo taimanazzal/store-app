@@ -32,18 +32,20 @@ All three optional challenge parts from the task were implemented:
 - **[hive](https://pub.dev/packages/hive) / [hive_flutter](https://pub.dev/packages/hive_flutter)** — local persistence for Favorites
 - **[http](https://pub.dev/packages/http)** — Fake Store API client
 - **[bloc_test](https://pub.dev/packages/bloc_test) / [mocktail](https://pub.dev/packages/mocktail)** — unit testing Cubits
-
 ## Architecture
+
+```text
 lib/
-├── models/ # Product, Coupon, CartItem
-├── services/ # ProductService (API call + local mock fallback)
+├── models/                 # Product, Coupon, CartItem
+├── services/               # ProductService (API call + local mock fallback)
 ├── cubits/
-│ ├── products/ # ProductsCubit — Initial/Loading/Loaded/Error
-│ ├── cart/ # CartCubit — local cart state + centralized stock checks
-│ ├── favorites/ # FavoritesCubit — persisted via Hive
-│ └── coupon/ # CouponCubit — independent coupon validation
-├── screens/ # ProductListScreen, ProductDetailsScreen, CartScreen, ConfirmationScreen
-└── widgets/ # ProductCard
+│   ├── products/           # ProductsCubit — Initial/Loading/Loaded/Error
+│   ├── cart/               # CartCubit — local cart state + centralized stock checks
+│   ├── favorites/          # FavoritesCubit — persisted via Hive
+│   └── coupon/             # CouponCubit — independent coupon validation
+├── screens/                # ProductListScreen, ProductDetailsScreen, CartScreen, ConfirmationScreen
+└── widgets/                # ProductCard
+```
 
 
 ## Cubit Responsibilities
@@ -81,10 +83,24 @@ flutter test
 
 ```bash
 flutter pub get
-flutter emulators --launch <emulator_id>
+flutter emulators --launch Pixel_7_Pro                 
 flutter devices
 flutter run
 ```
+
+# Branches Description:
+1. main Branch
+The main branch contains the final version of the app with local product images using Image.asset instead of network URLs. This ensures images load reliably without internet dependency.
+
+2. old-version Branch
+This branch contains the older version using Image.network to load images from Fake Store API URLs. It is kept as a reference before switching to local images.
+
+Switch Between Branches:
+# Go to main branch
+git checkout main
+
+# Go to old-version branch
+git checkout old-version
 
 ## Notes
 
