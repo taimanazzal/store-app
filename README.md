@@ -88,6 +88,20 @@ flutter devices
 flutter run
 ```
 
+Branches Description:
+1. main Branch
+The main branch contains the final version of the app with local product images using Image.asset instead of network URLs. This ensures images load reliably without internet dependency.
+
+2. old-version Branch
+This branch contains the older version using Image.network to load images from Fake Store API URLs. It is kept as a reference before switching to local images.
+
+Switch Between Branches:
+# Go to main branch
+git checkout main
+
+# Go to old-version branch
+git checkout old-version
+
 ## Notes
 
 - The Fake Store API's write operations (`POST`/`PUT`/`DELETE`) are not real and
