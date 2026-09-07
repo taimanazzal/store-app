@@ -45,7 +45,7 @@ class _CartScreenState extends State<CartScreen> {
                       leading: SizedBox(
                         width: 48,
                         height: 48,
-                        child: Image.network(
+                        child: Image.asset(
                           item.product.image,
                           fit: BoxFit.contain,
                           errorBuilder: (_, __, ___) =>
@@ -143,7 +143,6 @@ class _CartScreenState extends State<CartScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              // Coupon input row
               Row(
                 children: [
                   Expanded(
@@ -198,8 +197,6 @@ class _CartScreenState extends State<CartScreen> {
                 ),
               ],
               const SizedBox(height: 12),
-
-              // Totals
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [

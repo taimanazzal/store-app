@@ -6,7 +6,7 @@
       "price": 120.0,
       "description": "حقيبة ظهر متينة بمساحة كبيرة، مناسبة للاستخدام اليومي والدراسة.",
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "image": "assets/images/product1.jpg",
       "rating": { "rate": 4.2, "count": 128 },
       "stock": 15
     },
@@ -16,7 +16,7 @@
       "price": 350.0,
       "description": "ساعة أنيقة بتصميم بسيط وسوار جلد، مناسبة للمناسبات اليومية والرسمية.",
       "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "image": "assets/images/product2.jpg",
       "rating": { "rate": 4.6, "count": 89 },
       "stock": 3
     },
@@ -26,7 +26,7 @@
       "price": 90.0,
       "description": "قميص قطن مريح متوفر بعدة مقاسات وألوان.",
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "image": "assets/images/product3.jpg",
       "rating": { "rate": 4.0, "count": 210 },
       "stock": 0
     },
@@ -36,7 +36,7 @@
       "price": 210.0,
       "description": "حذاء رياضي خفيف الوزن مناسب للجري والمشي اليومي.",
       "category": "men's clothing",
-      "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+      "image": "assets/images/product4.jpg",
       "rating": { "rate": 4.4, "count": 156 },
       "stock": 8
     },
@@ -46,7 +46,7 @@
       "price": 175.0,
       "description": "فستان صيفي خفيف بتصميم عصري مناسب للجو الحار.",
       "category": "women's clothing",
-      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "image": "assets/images/product5.jpg",
       "rating": { "rate": 4.3, "count": 74 },
       "stock": 5
     },
@@ -56,7 +56,7 @@
       "price": 260.0,
       "description": "سماعات بلوتوث بجودة صوت عالية وبطارية تدوم طويلاً.",
       "category": "electronics",
-      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "image": "assets/images/product6.jpg",
       "rating": { "rate": 4.7, "count": 302 },
       "stock": 20
     },
@@ -66,7 +66,7 @@
       "price": 140.0,
       "description": "باور بانك بسعة كبيرة يدعم الشحن السريع لأكثر من جهاز.",
       "category": "electronics",
-      "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+      "image": "assets/images/product7.jpg",
       "rating": { "rate": 4.1, "count": 95 },
       "stock": 1
     },
@@ -76,7 +76,7 @@
       "price": 220.0,
       "description": "خاتم فضة عيار 925 بتصميم بسيط وأنيق.",
       "category": "jewelery",
-      "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+      "image": "assets/images/product8.jpg",
       "rating": { "rate": 4.5, "count": 61 },
       "stock": 12
     }

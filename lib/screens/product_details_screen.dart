@@ -38,7 +38,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
             Center(
               child: SizedBox(
                 height: 220,
-                child: Image.network(
+                child: Image.asset(
                   product.image,
                   fit: BoxFit.contain,
                   errorBuilder: (context, error, stackTrace) =>

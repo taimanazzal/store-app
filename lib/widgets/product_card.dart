@@ -28,7 +28,7 @@ class ProductCard extends StatelessWidget {
                 child: Stack(
                   children: [
                     Positioned.fill(
-                      child: Image.network(
+                      child: Image.asset(
                         product.image,
                         fit: BoxFit.contain,
                         errorBuilder: (context, error, stackTrace) =>
